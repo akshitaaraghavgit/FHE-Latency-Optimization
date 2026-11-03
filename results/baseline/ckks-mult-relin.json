@@ -1,0 +1,173 @@
+{
+  "context": {
+    "date": "2026-11-02T22:25:31+05:30",
+    "host_name": "akshitaa-raghav-Latitude-5540",
+    "executable": "./bin/benchmark/lib-benchmark",
+    "num_cpus": 16,
+    "mhz_per_cpu": 4600,
+    "cpu_scaling_enabled": true,
+    "aslr_enabled": false,
+    "caches": [
+      {
+        "type": "Data",
+        "level": 1,
+        "size": 49152,
+        "num_sharing": 2
+      },
+      {
+        "type": "Instruction",
+        "level": 1,
+        "size": 32768,
+        "num_sharing": 2
+      },
+      {
+        "type": "Unified",
+        "level": 2,
+        "size": 1310720,
+        "num_sharing": 2
+      },
+      {
+        "type": "Unified",
+        "level": 3,
+        "size": 12582912,
+        "num_sharing": 16
+      }
+    ],
+    "load_avg": [0.848633,0.902344,0.937012],
+    "library_version": "v1.9.4",
+    "library_build_type": "release",
+    "json_schema_version": 1
+  },
+  "benchmarks": [
+    {
+      "name": "CKKSrns_MultRelin/depth:1",
+      "family_index": 0,
+      "per_family_instance_index": 0,
+      "run_name": "CKKSrns_MultRelin/depth:1",
+      "run_type": "iteration",
+      "repetitions": 5,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 92,
+      "real_time": 7.3373974891301650e+03,
+      "cpu_time": 7.3370067826086961e+03,
+      "time_unit": "us"
+    },
+    {
+      "name": "CKKSrns_MultRelin/depth:1",
+      "family_index": 0,
+      "per_family_instance_index": 0,
+      "run_name": "CKKSrns_MultRelin/depth:1",
+      "run_type": "iteration",
+      "repetitions": 5,
+      "repetition_index": 1,
+      "threads": 1,
+      "iterations": 92,
+      "real_time": 7.9090775217359214e+03,
+      "cpu_time": 7.9009994456521754e+03,
+      "time_unit": "us"
+    },
+    {
+      "name": "CKKSrns_MultRelin/depth:1",
+      "family_index": 0,
+      "per_family_instance_index": 0,
+      "run_name": "CKKSrns_MultRelin/depth:1",
+      "run_type": "iteration",
+      "repetitions": 5,
+      "repetition_index": 2,
+      "threads": 1,
+      "iterations": 92,
+      "real_time": 7.5475948913109551e+03,
+      "cpu_time": 7.5459766739130437e+03,
+      "time_unit": "us"
+    },
+    {
+      "name": "CKKSrns_MultRelin/depth:1",
+      "family_index": 0,
+      "per_family_instance_index": 0,
+      "run_name": "CKKSrns_MultRelin/depth:1",
+      "run_type": "iteration",
+      "repetitions": 5,
+      "repetition_index": 3,
+      "threads": 1,
+      "iterations": 92,
+      "real_time": 7.4814774565232292e+03,
+      "cpu_time": 7.4810431195652172e+03,
+      "time_unit": "us"
+    },
+    {
+      "name": "CKKSrns_MultRelin/depth:1",
+      "family_index": 0,
+      "per_family_instance_index": 0,
+      "run_name": "CKKSrns_MultRelin/depth:1",
+      "run_type": "iteration",
+      "repetitions": 5,
+      "repetition_index": 4,
+      "threads": 1,
+      "iterations": 92,
+      "real_time": 6.9473319021910911e+03,
+      "cpu_time": 6.9461755978260844e+03,
+      "time_unit": "us"
+    },
+    {
+      "name": "CKKSrns_MultRelin/depth:1_mean",
+      "family_index": 0,
+      "per_family_instance_index": 0,
+      "run_name": "CKKSrns_MultRelin/depth:1",
+      "run_type": "aggregate",
+      "repetitions": 5,
+      "threads": 1,
+      "aggregate_name": "mean",
+      "aggregate_unit": "time",
+      "iterations": 5,
+      "real_time": 7.4445758521782727e+03,
+      "cpu_time": 7.4422403239130435e+03,
+      "time_unit": "us"
+    },
+    {
+      "name": "CKKSrns_MultRelin/depth:1_median",
+      "family_index": 0,
+      "per_family_instance_index": 0,
+      "run_name": "CKKSrns_MultRelin/depth:1",
+      "run_type": "aggregate",
+      "repetitions": 5,
+      "threads": 1,
+      "aggregate_name": "median",
+      "aggregate_unit": "time",
+      "iterations": 5,
+      "real_time": 7.4814774565232292e+03,
+      "cpu_time": 7.4810431195652154e+03,
+      "time_unit": "us"
+    },
+    {
+      "name": "CKKSrns_MultRelin/depth:1_stddev",
+      "family_index": 0,
+      "per_family_instance_index": 0,
+      "run_name": "CKKSrns_MultRelin/depth:1",
+      "run_type": "aggregate",
+      "repetitions": 5,
+      "threads": 1,
+      "aggregate_name": "stddev",
+      "aggregate_unit": "time",
+      "iterations": 5,
+      "real_time": 3.4873887048670326e+02,
+      "cpu_time": 3.4636726524159980e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "CKKSrns_MultRelin/depth:1_cv",
+      "family_index": 0,
+      "per_family_instance_index": 0,
+      "run_name": "CKKSrns_MultRelin/depth:1",
+      "run_type": "aggregate",
+      "repetitions": 5,
+      "threads": 1,
+      "aggregate_name": "cv",
+      "aggregate_unit": "percentage",
+      "iterations": 5,
+      "real_time": 4.6844693023668060e-02,
+      "cpu_time": 4.6540725664108079e-02,
+      "time_unit": "us"
+    }
+  ]
+}
